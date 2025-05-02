@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ContaCliente",
+            "request": "launch",
+            "mainClass": "ContaCliente",
+            "projectName": "conta-banco_9c4487eb",
+            // "args": [
+            //     "12345",
+            //     "0000-0",
+            //     "zépikeno",
+            //     "1000"
+            // ]
+        },
+        {
+            "type": "java",
+            "name": "ContaTerminal",
+            "request": "launch",
+            "mainClass": "ContaTerminal",
+            "projectName": "conta-banco_9c4487eb"
+        }
+    ]
+}
